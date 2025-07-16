@@ -12,26 +12,28 @@ import {
   Cpu,
   Terminal,
   Bug,
-  Monitor
+  Monitor,
+  Braces,
 } from 'lucide-react';
 
 const skillCategories = [
   {
     title: "Testing Frameworks",
     skills: [
+      { name: "Virtuoso", level: 98, icon: Database },
+      { name: "JMeter", level: 92, icon: Zap },
+      { name: "BlazeMeter", level: 85, icon: Monitor },
       { name: "Selenium WebDriver", level: 95, icon: Code },
       { name: "TestNG", level: 90, icon: TestTube },
-      { name: "Postman", level: 88, icon: Globe },
-      { name: "RestAssured", level: 85, icon: Database }
+      { name: "Postman", level: 88, icon: Globe }
     ]
   },
   {
-    title: "Performance Testing",
+    title: "Development",
     skills: [
-      { name: "JMeter", level: 92, icon: Zap },
-      { name: "BlazeMeter", level: 85, icon: Monitor },
-      { name: "LoadRunner", level: 78, icon: Cpu },
-      { name: "Artillery", level: 75, icon: Terminal }
+      
+      { name: "Java", level: 88, icon: Cog },
+      { name: "JavaScript", level: 88, icon: Braces }
     ]
   },
   {
@@ -42,7 +44,8 @@ const skillCategories = [
       { name: "Docker", level: 80, icon: Layers },
       { name: "Azure DevOps", level: 82, icon: Bug }
     ]
-  }
+  },
+  
 ];
 
 const techStack = [

@@ -9,25 +9,25 @@ const timeline = [
     description: "Began specializing in software testing and quality assurance at CentraLogic india pvt.ltd"
   },
   {
-    year: "2021",
-    title: "Automation Expert",
-    description: "Mastered Selenium, TestNG, and automated testing frameworks"
+    year: "2024",
+    title: "Software Engineer Trainee (Java Dev | Testing)",
+    description: "Technohacks Solution pvt.ltd, Nashik"
   },
   {
     year: "2022",
     title: "CI/CD Integration",
     description: "Implemented robust testing pipelines with Jenkins and Git workflows"
   },
-  {
-    year: "2023",
-    title: "Performance Testing",
-    description: "Advanced expertise in JMeter and BlazeMeter for load testing"
-  },
-  {
-    year: "2024",
-    title: "Full-Stack QA Engineer",
-    description: "Leading comprehensive testing strategies and mentoring teams"
-  }
+  // {
+  //   year: "2023",
+  //   title: "Performance Testing",
+  //   description: "Advanced expertise in JMeter and BlazeMeter for load testing"
+  // },
+  // {
+  //   year: "2024",
+  //   title: "Full-Stack QA Engineer",
+  //   description: "Leading comprehensive testing strategies and mentoring teams"
+  // }
 ];
 
 const badges = [
