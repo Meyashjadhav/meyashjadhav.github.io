@@ -6,7 +6,7 @@ const typewriterTexts = [
   "Hi, I'm Yashodip Jadhav",
   "A Developer",
   "An Automation Software Engineer",
-  "Driven by Precision. Powered by Passion."
+  "Engineered to lead. Programmed for legacy"
 ];
 
 export function Hero() {

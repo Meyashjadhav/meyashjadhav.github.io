@@ -5,7 +5,7 @@ const socialLinks = [
   { icon: Linkedin, href: "#", label: "LinkedIn" },
   { icon: Github, href: "#", label: "GitHub" },
   { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Mail, href: "mailto:yashodip.jadhav@email.com", label: "Email" },
+  { icon: Mail, href: "mailto:yashodip.yj@email.com", label: "Email" },
 ];
 
 const quickLinks = [
@@ -46,11 +46,11 @@ export function Footer() {
                 viewport={{ once: true }}
               >
                 <h3 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">
-                  Yash Frequency
+                  Yashodip Jadhav
                 </h3>
                 <p className="text-muted-foreground leading-relaxed max-w-md">
                   Passionate Software Test Engineer specializing in automation, performance testing, 
-                  and quality assurance. Driven by precision, powered by passion.
+                  and quality assurance. "Engineered to lead. Programmed for legacy ".
                 </p>
                 
                 <div className="flex items-center space-x-1 mt-4 text-sm text-muted-foreground">

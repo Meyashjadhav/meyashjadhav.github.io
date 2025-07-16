@@ -38,7 +38,7 @@ export function Header() {
             whileHover={{ scale: 1.05 }}
             className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent"
           >
-            Yash Frequency
+            Yashodip Jadhav
           </motion.div>
 
           {/* Desktop Navigation */}
