@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 import { Heart, Code, Coffee, Linkedin, Github, Twitter, Mail } from 'lucide-react';
 
 const socialLinks = [
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Github, href: "#", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/yashodipjadhav/", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/Meyashjadhav", label: "GitHub" },
   { icon: Twitter, href: "#", label: "Twitter" },
   { icon: Mail, href: "mailto:yashodip.yj@email.com", label: "Email" },
 ];

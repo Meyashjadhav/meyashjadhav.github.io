@@ -21,14 +21,14 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "Mumbai, India",
+    value: "Pune, India",
     href: "#"
   }
 ];
 
 const socialLinks = [
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Github, href: "#", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/yashodipjadhav/", label: "LinkedIn" },
+  { icon: Github, href: "https://github.com/Meyashjadhav", label: "GitHub" },
   { icon: Twitter, href: "#", label: "Twitter" },
 ];
 

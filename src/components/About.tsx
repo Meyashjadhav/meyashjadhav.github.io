@@ -4,9 +4,9 @@ import { Code2, TestTube, Zap, Target } from 'lucide-react';
 
 const timeline = [
   {
-    year: "2020",
-    title: "Started QA Journey",
-    description: "Began specializing in software testing and quality assurance"
+    year: "2025",
+    title: "Software Automation Engineer",
+    description: "Began specializing in software testing and quality assurance at CentraLogic india pvt.ltd"
   },
   {
     year: "2021",
