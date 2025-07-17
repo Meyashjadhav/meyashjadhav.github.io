@@ -163,11 +163,9 @@ export function Skills() {
                   animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
                   transition={{ duration: 0.5, delay: 1.1 + index * 0.05 }}
                   whileHover={{ 
-                    scale: 1.1,
-                    backgroundColor: "hsl(var(--primary))",
-                    color: "hsl(var(--primary-foreground))"
+                    scale: 1.1
                   }}
-                  className="px-4 py-2 bg-muted text-muted-foreground rounded-full text-sm font-medium cursor-pointer transition-all duration-300 hover:shadow-md"
+                  className="px-4 py-2 bg-muted text-muted-foreground rounded-full text-sm font-medium cursor-pointer transition-all duration-300 hover:bg-primary hover:text-primary-foreground hover:shadow-md"
                 >
                   {tech}
                 </motion.span>
