@@ -6,17 +6,20 @@ const timeline = [
   {
     year: "2025",
     title: "Software Automation Engineer",
+    company: "CentraLogic India pvt.ltd",
     description: "Began specializing in software testing and quality assurance at CentraLogic india pvt.ltd"
   },
   {
     year: "2024",
     title: "Software Engineer Trainee (Java Dev | Testing)",
-    description: "Technohacks Solution pvt.ltd, Nashik"
+    company: "Technohacks Solution pvt.ltd, Nashik",
+    description: "Began specializing in software testing and quality assurance at Technohacks Solution pvt.ltd, Nashik"
   },
   {
-    year: "2022",
-    title: "CI/CD Integration",
-    description: "Implemented robust testing pipelines with Jenkins and Git workflows"
+    year: "2024",
+    title: "Android Development Trainee",
+    company: "WENABLE by WINJIT",
+    description: "Began specializing in Android application in JAVA , Android Studio, at Winjit pvt.ltd Nashik"
   },
   // {
   //   year: "2023",
@@ -33,8 +36,8 @@ const timeline = [
 const badges = [
   { icon: Code2, label: "Test Automation", color: "bg-blue-500" },
   { icon: TestTube, label: "Quality Assurance", color: "bg-green-500" },
-  { icon: Zap, label: "Performance Testing", color: "bg-yellow-500" },
-  { icon: Target, label: "Precision Focus", color: "bg-purple-500" }
+  { icon: Zap, label: "FullStack Development", color: "bg-yellow-500" },
+  { icon: Target, label: "Performance Testing", color: "bg-purple-500" }
 ];
 
 export function About() {
@@ -148,6 +151,9 @@ export function About() {
                     
                     <div className="flex-1 bg-card p-6 rounded-lg shadow-card hover:shadow-elegant transition-all duration-300">
                       <h3 className="text-xl font-semibold text-foreground mb-2">{item.title}</h3>
+                      {item.company && (
+                        <div className="text-sm text-muted-foreground italic mb-1">{item.company}</div>
+                      )}
                       <p className="text-muted-foreground">{item.description}</p>
                     </div>
                   </motion.div>

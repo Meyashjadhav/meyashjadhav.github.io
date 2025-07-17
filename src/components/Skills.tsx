@@ -181,10 +181,10 @@ export function Skills() {
             className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12"
           >
             {[
-              { label: "Years Experience", value: "4+" },
-              { label: "Projects Completed", value: "50+" },
+              { label: "Years Experience", value: "3+" },
+              { label: "Projects Completed", value: "13+" },
               { label: "Test Cases Written", value: "1000+" },
-              { label: "Bugs Found & Fixed", value: "500+" }
+              { label: "Bugs Found & Fixed", value: "1500+" }
             ].map((stat, index) => (
               <motion.div
                 key={stat.label}
