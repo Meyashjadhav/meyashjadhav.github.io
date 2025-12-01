@@ -4,9 +4,8 @@ import { ChevronDown } from 'lucide-react';
 
 const typewriterTexts = [
   "Hi, I'm Yashodip Jadhav",
-  "A Developer",
-  "An Automation Software Engineer",
-  "Engineered to lead. Programmed for legacy"
+  "A Software Engineer - SDET",
+  "Engineered to lead. Programmed for legacy",
 ];
 
 export function Hero() {
